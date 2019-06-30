@@ -1,0 +1,26 @@
+.employee-list{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.employee-list div{
+    width: 100px;
+    height:100px;
+    background: #ccc;
+    margin: 10px;
+    padding: 10px;
+    color:#000;
+    min-width: 100px;
+    border:1px solid #999;
+    border-radius: 5px;
+}
+
+.employee-card{
+    cursor: pointer;
+}
+
+.employee-card:hover{
+    background-color: #999;
+    color:#fff;
+    font-weight: bold;
+}
